@@ -1,0 +1,61 @@
+,score_mean,lib_count,con_count,mod_count,part_majority,veracity,topic,authors_label,news_number,label_match,distance_from_3
+Q12,2.4081632653061225,34,10,5,liberal,real,abortion,liberal,1,True,0.5918367346938775
+Q15,2.510204081632653,31,13,5,liberal,real,abortion,liberal,2,True,0.48979591836734704
+Q18,2.020408163265306,39,6,4,liberal,real,abortion,liberal,3,True,0.9795918367346941
+Q21,2.9183673469387754,14,12,23,fail to achieve half agreement,real,abortion,liberal,4,False,0.08163265306122458
+Q24,3.1020408163265305,20,20,9,fail to achieve half agreement,real,abortion,liberal,5,False,-0.1020408163265305
+Q27,3.4285714285714284,10,32,7,conservative,real,abortion,conservative,6,True,0.4285714285714284
+Q30,1.8775510204081634,41,3,5,liberal,real,abortion,conservative,7,False,-1.1224489795918366
+Q33,2.938775510204082,14,11,24,fail to achieve half agreement,real,abortion,conservative,8,False,-0.06122448979591821
+Q36,1.653061224489796,43,4,2,liberal,real,abortion,conservative,9,False,-1.346938775510204
+Q39,3.5714285714285716,7,28,14,conservative,real,abortion,conservative,10,True,0.5714285714285716
+Q43,1.816326530612245,41,3,5,liberal,real,gun,liberal,1,True,1.183673469387755
+Q46,1.7755102040816326,42,2,5,liberal,real,gun,liberal,2,True,1.2244897959183674
+Q49,2.8979591836734695,18,14,17,fail to achieve half agreement,real,gun,liberal,3,False,0.1020408163265305
+Q52,1.9183673469387754,36,3,10,liberal,real,gun,liberal,4,True,1.0816326530612246
+Q55,2.306122448979592,31,6,12,liberal,real,gun,liberal,5,True,0.693877551020408
+Q58,3.795918367346939,5,33,11,conservative,real,gun,conservative,6,True,0.795918367346939
+Q61,4.020408163265306,3,40,6,conservative,real,gun,conservative,7,True,1.020408163265306
+Q64,3.4489795918367347,10,29,10,conservative,real,gun,conservative,8,True,0.44897959183673475
+Q67,3.36734693877551,9,26,14,conservative,real,gun,conservative,9,True,0.36734693877551017
+Q70,4.1020408163265305,6,42,1,conservative,real,gun,conservative,10,True,1.1020408163265305
+Q74,2.693877551020408,25,14,10,liberal,real,inflation,liberal,1,True,0.30612244897959195
+Q77,2.7755102040816326,23,12,14,fail to achieve half agreement,real,inflation,liberal,2,False,0.22448979591836737
+Q80,2.673469387755102,23,11,15,fail to achieve half agreement,real,inflation,liberal,3,False,0.3265306122448979
+Q83,2.3469387755102042,33,9,7,liberal,real,inflation,liberal,4,True,0.6530612244897958
+Q86,3.4081632653061225,7,27,15,conservative,real,inflation,liberal,5,False,-0.40816326530612246
+Q89,3.5918367346938775,10,32,7,conservative,real,inflation,conservative,6,True,0.5918367346938775
+Q92,3.4693877551020407,8,26,15,conservative,real,inflation,conservative,7,True,0.46938775510204067
+Q95,3.857142857142857,3,31,15,conservative,real,inflation,conservative,8,True,0.8571428571428572
+Q98,3.2448979591836733,12,21,16,fail to achieve half agreement,real,inflation,conservative,9,False,0.2448979591836733
+Q101,2.4285714285714284,31,11,7,liberal,real,inflation,conservative,10,False,-0.5714285714285716
+Q104,2.450980392156863,28,13,10,liberal,fake,abortion,liberal,1,True,0.5490196078431371
+Q107,2.4705882352941178,31,12,8,liberal,fake,abortion,liberal,2,True,0.5294117647058822
+Q110,2.2745098039215685,37,9,5,liberal,fake,abortion,liberal,3,True,0.7254901960784315
+Q113,2.1176470588235294,37,6,8,liberal,fake,abortion,liberal,4,True,0.8823529411764706
+Q116,2.803921568627451,20,13,18,fail to achieve half agreement,fake,abortion,liberal,5,False,0.1960784313725492
+Q119,2.980392156862745,19,17,15,fail to achieve half agreement,fake,abortion,conservative,6,False,-0.019607843137254832
+Q122,3.9411764705882355,5,39,7,conservative,fake,abortion,conservative,7,True,0.9411764705882355
+Q125,3.7254901960784315,11,36,4,conservative,fake,abortion,conservative,8,True,0.7254901960784315
+Q128,2.450980392156863,26,6,19,liberal,fake,abortion,conservative,9,False,-0.5490196078431371
+Q131,3.5098039215686274,9,30,12,conservative,fake,abortion,conservative,10,True,0.5098039215686274
+Q134,2.3137254901960786,30,5,16,liberal,fake,gun,liberal,1,True,0.6862745098039214
+Q137,2.1372549019607843,39,7,5,liberal,fake,gun,liberal,2,True,0.8627450980392157
+Q140,2.6862745098039214,21,7,23,fail to achieve half agreement,fake,gun,liberal,3,False,0.31372549019607865
+Q143,2.803921568627451,20,16,15,fail to achieve half agreement,fake,gun,liberal,4,False,0.1960784313725492
+Q146,2.1176470588235294,33,5,13,liberal,fake,gun,liberal,5,True,0.8823529411764706
+Q149,4.215686274509804,2,40,9,conservative,fake,gun,conservative,6,True,1.215686274509804
+Q152,2.7254901960784315,29,19,3,liberal,fake,gun,conservative,7,False,-0.27450980392156854
+Q155,3.411764705882353,16,30,5,conservative,fake,gun,conservative,8,True,0.4117647058823528
+Q158,4.117647058823529,4,41,6,conservative,fake,gun,conservative,9,True,1.117647058823529
+Q161,4.098039215686274,2,39,10,conservative,fake,gun,conservative,10,True,1.0980392156862742
+Q164,3.0980392156862746,17,19,15,fail to achieve half agreement,fake,inflation,liberal,1,False,-0.0980392156862746
+Q167,1.9411764705882353,45,5,1,liberal,fake,inflation,liberal,2,True,1.0588235294117647
+Q170,2.176470588235294,38,8,5,liberal,fake,inflation,liberal,3,True,0.8235294117647061
+Q173,2.196078431372549,34,2,15,liberal,fake,inflation,liberal,4,True,0.8039215686274508
+Q176,2.5686274509803924,22,5,24,fail to achieve half agreement,fake,inflation,liberal,5,False,0.43137254901960764
+Q179,3.9607843137254903,3,37,11,conservative,fake,inflation,conservative,6,True,0.9607843137254903
+Q182,3.784313725490196,3,38,10,conservative,fake,inflation,conservative,7,True,0.784313725490196
+Q185,3.803921568627451,5,33,13,conservative,fake,inflation,conservative,8,True,0.8039215686274508
+Q188,3.9607843137254903,2,38,11,conservative,fake,inflation,conservative,9,True,0.9607843137254903
+Q191,3.6862745098039214,1,27,23,conservative,fake,inflation,conservative,10,True,0.6862745098039214
