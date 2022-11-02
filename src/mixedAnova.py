@@ -90,6 +90,7 @@ result[li3].mean()
 # result.to_csv("/Users/agathos/DtotheS/CBv2/data/result_clean_wide.csv",index=False)
 
 ## Repeated measure ANOVA
-!pip install statsmodels
+# !pip install statsmodels
 from statsmodels.stats.anova import AnovaRM
 print(AnovaRM(data=result, depvar='response', subject='patient', within=['drug']).fit())
+# TODO: need to change data format.

@@ -1,0 +1,61 @@
+,veracity,topic,authors_label,score_mean,lib_count,con_count,mod_count,part_majority,news_number,label_match,distance_from_3,News
+Q12,real,abortion,liberal,2.408163265,34,10,5,liberal,1,TRUE,0.591836735,Arizona GOP Senate candidate attempts to soften anti-abortion stance in pivot to general election CNN Digital Expansion 2017 Michael Warren
+Q15,real,abortion,liberal,2.510204082,31,13,5,liberal,2,TRUE,0.489795918,"As Texas' Abortion Trigger Law Goes Into Effect, Beto O'Rourke Ramps Up Attacks"
+Q18,real,abortion,liberal,2.020408163,39,6,4,liberal,3,TRUE,0.979591837,‘I’m Carrying This Baby Just to Bury It’: The Struggle to Decode Abortion Laws
+Q21,real,abortion,liberal,2.918367347,14,12,23,fail to achieve half agreement,4,FALSE,0.081632653,"Facebook gave police their private data. Now, this duo face abortion charges"
+Q24,real,abortion,liberal,3.102040816,20,20,9,fail to achieve half agreement,5,FALSE,-0.102040816,Anti-Abortion Group’s Data Trove Represents ‘Serious Concern’ Post Roe
+Q27,real,abortion,conservative,3.428571429,10,32,7,conservative,6,TRUE,0.428571429,"Rubio responds to Demings' comments, accuses Dem opponent of supporting abortion 'at any point'"
+Q30,real,abortion,conservative,1.87755102,41,3,5,liberal,7,FALSE,-1.12244898,"Democrats hold slight edge over GOP, abortion more important to voters than inflation, poll shows"
+Q33,real,abortion,conservative,2.93877551,14,11,24,fail to achieve half agreement,8,FALSE,-0.06122449,"VA woman found dead after refusing abortion, boyfriend arrested"
+Q36,real,abortion,conservative,1.653061224,43,4,2,liberal,9,FALSE,-1.346938776,New Mexico governor pledges $10 million for new abortion clinic
+Q39,real,abortion,conservative,3.571428571,7,28,14,conservative,10,TRUE,0.571428571,Catholic Virginia nurse practitioner says CVS fired her for not providing abortion drugs: lawsuit
+Q43,real,gun,liberal,1.816326531,41,3,5,liberal,1,TRUE,1.183673469,House Oversight chair unveils legislation to hold the firearm industry accountable
+Q46,real,gun,liberal,1.775510204,42,2,5,liberal,2,TRUE,1.224489796,"‘Ghost guns’ now must be traceable, as Biden rule takes effect"
+Q49,real,gun,liberal,2.897959184,18,14,17,fail to achieve half agreement,3,FALSE,0.102040816,What Are the Real Warning Signs of a Mass Shooting?
+Q52,real,gun,liberal,1.918367347,36,3,10,liberal,4,TRUE,1.081632653,"Shots fired in US schools spiked dramatically last year, gun violence report finds"
+Q55,real,gun,liberal,2.306122449,31,6,12,liberal,5,TRUE,0.693877551,Americans deserve to be safe': House passes gun ban that has little chance in Senate
+Q58,real,gun,conservative,3.795918367,5,33,11,conservative,6,TRUE,0.795918367,"China gun attack kills 3, despite strict firearm regulations"
+Q61,real,gun,conservative,4.020408163,3,40,6,conservative,7,TRUE,1.020408163,California gun control law stays unenforceable after Democrat lawmakers fail key vote
+Q64,real,gun,conservative,3.448979592,10,29,10,conservative,8,TRUE,0.448979592,"New York sees demand for concealed carry permits spike, as new gun control law threatens backlogs"
+Q67,real,gun,conservative,3.367346939,9,26,14,conservative,9,TRUE,0.367346939,Rust'-related gun safety bill fails to pass in California due to conflict with Hollywood studios and unions
+Q70,real,gun,conservative,4.102040816,6,42,1,conservative,10,TRUE,1.102040816,NRA-affiliated fundraising event notches 'huge success' despite fierce pushback from gun control activists
+Q74,real,inflation,liberal,2.693877551,25,14,10,liberal,1,TRUE,0.306122449,What the new $80 billion for the IRS really means for your taxes
+Q77,real,inflation,liberal,2.775510204,23,12,14,fail to achieve half agreement,2,FALSE,0.224489796,Gas prices dip just below $4 for the first time in 5 months
+Q80,real,inflation,liberal,2.673469388,23,11,15,fail to achieve half agreement,3,FALSE,0.326530612,"With inflation still running hot, Social Security recipients could get $1,900 boost next year"
+Q83,real,inflation,liberal,2.346938776,33,9,7,liberal,4,TRUE,0.653061224,Sen. Kyrsten Sinema Agrees To Vote For Inflation Reduction Act
+Q86,real,inflation,liberal,3.408163265,7,27,15,conservative,5,FALSE,-0.408163265,Powell's inflation miscalculation raises stakes on rate shift
+Q89,real,inflation,conservative,3.591836735,10,32,7,conservative,6,TRUE,0.591836735,"Biden's Student Loan Forgiveness Plan Faces Backlash, Critics Worry About 'Reckless' Inflation Impact"
+Q92,real,inflation,conservative,3.469387755,8,26,15,conservative,7,TRUE,0.469387755,More than 20 million US households are behind on utility bills
+Q95,real,inflation,conservative,3.857142857,3,31,15,conservative,8,TRUE,0.857142857,Analysis suggests Inflation Reduction Act will reduce annual inflation by only 0.1 percentage points
+Q98,real,inflation,conservative,3.244897959,12,21,16,fail to achieve half agreement,9,FALSE,0.244897959,"Wholesale inflation falls slightly in July, but prices remain at multi-decade high"
+Q101,real,inflation,conservative,2.428571429,31,11,7,liberal,10,FALSE,-0.571428571,"Pennsylvania Gov. Wolf calls for $2,000 payments to help families ‘survive inflation’"
+Q104,fake,abortion,liberal,2.450980392,28,13,10,liberal,1,TRUE,0.549019608,"In 2022, Mississippi state legislators publicly discussed using “pregnancy-sniffing dogs” at airports as a tactic to prevent women from leaving the state to obtain an abortion."
+Q107,fake,abortion,liberal,2.470588235,31,12,8,liberal,2,TRUE,0.529411765,"In a leaked majority opinion overturning Roe v. Wade, conservative Supreme Court justices argued that abortion should be banned or restricted in order to boost the “domestic supply of infants” for adoption."
+Q110,fake,abortion,liberal,2.274509804,37,9,5,liberal,3,TRUE,0.725490196,"Sen. Kevin Cramer, R-N.D., said it’s worth losing a pregnant mother’s life if it means saving an unborn fetus."
+Q113,fake,abortion,liberal,2.117647059,37,6,8,liberal,4,TRUE,0.882352941,"Five conservative Supreme Court justices dishonestly suggested, in Senate confirmation hearings, that they thought Roe v. Wade was beyond overturning."
+Q116,fake,abortion,liberal,2.803921569,20,13,18,fail to achieve half agreement,5,FALSE,0.196078431,"As of July 2022, Ohio’s law banning abortions for people who have been pregnant for six weeks or longer has an exception for victims of rape."
+Q119,fake,abortion,conservative,2.980392157,19,17,15,fail to achieve half agreement,6,FALSE,-0.019607843,"Abortion is available at any point of pregnancy and for any reason in Alaska, Colorado, New Jersey, New Mexico, Oregon and Vermont."
+Q122,fake,abortion,conservative,3.941176471,5,39,7,conservative,7,TRUE,0.941176471,Rep. Alexandria Ocasio-Cortez was “faking being arrested” during an abortion-rights protest outside the Supreme Court.
+Q125,fake,abortion,conservative,3.725490196,11,36,4,conservative,8,TRUE,0.725490196,Sen. Elizabeth Warren once said: “Having an abortion is no different than someone having their tonsils removed.”
+Q128,fake,abortion,conservative,2.450980392,26,6,19,liberal,9,FALSE,-0.549019608,"""If a 10-year-old became pregnant as a result of rape and it was threatening her life, then that’s not an abortion."""
+Q131,fake,abortion,conservative,3.509803922,9,30,12,conservative,10,TRUE,0.509803922,“There are 63 million abortions a year in this country.”
+Q134,fake,gun,liberal,2.31372549,30,5,16,liberal,1,TRUE,0.68627451,"The mother of Uvalde, Texas, school shooting victim Amerie Jo Garza wrote and published on Facebook a poem that began: “The chicken soup in her thermos stayed hot all day while her body grew cold.”"
+Q137,fake,gun,liberal,2.137254902,39,7,5,liberal,2,TRUE,0.862745098,Gun manufacturing is the only industry in America that is exempt from being sued.
+Q140,fake,gun,liberal,2.68627451,21,7,23,fail to achieve half agreement,3,FALSE,0.31372549,March 2020 was the first March without a school shooting in the U.S. since 2002.
+Q143,fake,gun,liberal,2.803921569,20,16,15,fail to achieve half agreement,4,FALSE,0.196078431,"Shooter in Highland Park, Illinois, “bought the gun illegally.”"
+Q146,fake,gun,liberal,2.117647059,33,5,13,liberal,5,TRUE,0.882352941,"White supremacists are going to be “shooting up all Walmarts and will kill Blacks and Mexicans” in San Bernardino, California."
+Q149,fake,gun,conservative,4.215686275,2,40,9,conservative,6,TRUE,1.215686275,"An 11-year-old Montana girl named Patricia Harrington stopped a home invasion by shooting and killing two armed undocumented immigrants named Ralphel Resindez and Enrico Garza, and Fox News reported on the story."
+Q152,fake,gun,conservative,2.725490196,29,19,3,liberal,7,FALSE,-0.274509804,"On April 8, 2021, U.S. President Joe Biden said the Second Amendment of the U.S. Constitution is a “phony argument.”"
+Q155,fake,gun,conservative,3.411764706,16,30,5,conservative,8,TRUE,0.411764706,"The state of New Jersey is currently conducting, or plans to conduct, house-to-house confiscations of banned high-capacity gun magazines."
+Q158,fake,gun,conservative,4.117647059,4,41,6,conservative,9,TRUE,1.117647059,"""We need to realize that people who think that ‚Äòwell, maybe if we could just implement tougher gun laws, it‚Äôs going to solve it,‚Äô Chicago and LA and New York disprove that thesis."""
+Q161,fake,gun,conservative,4.098039216,2,39,10,conservative,10,TRUE,1.098039216,"No one “with a concealed carry permit ever committed a mass shooting."""
+Q164,fake,inflation,liberal,3.098039216,17,19,15,fail to achieve half agreement,1,FALSE,-0.098039216,"“When unemployment goes down, inflation goes up.”"
+Q167,fake,inflation,liberal,1.941176471,45,5,1,liberal,2,TRUE,1.058823529,“This country’s working people actually got a raise.”
+Q170,fake,inflation,liberal,2.176470588,38,8,5,liberal,3,TRUE,0.823529412,"“Wages have gone up higher, faster than inflation.”"
+Q173,fake,inflation,liberal,2.196078431,34,2,15,liberal,4,TRUE,0.803921569,“Adults over 51 can receive $$$ in additional spending for groceries and expenses.”
+Q176,fake,inflation,liberal,2.568627451,22,5,24,fail to achieve half agreement,5,FALSE,0.431372549,"$2,000 stimulus checks were due on Jan. 19."
+Q179,fake,inflation,conservative,3.960784314,3,37,11,conservative,6,TRUE,0.960784314,"In June 2022, the U.S. Department of Agriculture (USDA) predicted that egg prices would reach $12 per dozen by fall."
+Q182,fake,inflation,conservative,3.784313725,3,38,10,conservative,7,TRUE,0.784313725,The cost of a can of Arizona Iced Tea increased from $0.99 to $1.29 in the United States.
+Q185,fake,inflation,conservative,3.803921569,5,33,13,conservative,8,TRUE,0.803921569,Social media posts with pictures of gas prices and captions urging people to “Never forget January 6th” accurately documented the cost of fuel on the day of the 2021 U.S. Capitol riot.
+Q188,fake,inflation,conservative,3.960784314,2,38,11,conservative,9,TRUE,0.960784314,A photograph shows an actual gas price of $7.11 at a 7-Eleven Store in mid-June 2022.
+Q191,fake,inflation,conservative,3.68627451,1,27,23,conservative,10,TRUE,0.68627451,"In 2022, members of Congress collectively voted to award themselves a 21 percent pay raise."
