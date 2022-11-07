@@ -8,10 +8,14 @@ import seaborn as sns
 
 plt.style.use('seaborn-bright')
 
-df = pd.read_csv("/Users/agathos/DtotheS/CBv2/data/result100n.csv")
-df2 = pd.read_csv("/Users/agathos/DtotheS/CBv2/data/result100t.csv")
+df = pd.read_csv("/Users/agathos/DtotheS/CBv2/data/result100n_raw.csv")
+df2 = pd.read_csv("/Users/agathos/DtotheS/CBv2/data/result100t_raw.csv")
 df = df[2:].reset_index(drop=True)
 df2 = df2[2:].reset_index(drop=True)
+
+df.columns
+df['Duration (in seconds)'].astype(int).mean() / 60
+df['Duration (in seconds)'].astype(int).median() / 60
 
 rdf = df[df['condition']=='1']
 fdf = df[df['condition']=='2']
@@ -24,7 +28,8 @@ col = df.columns.to_list()
 cdemo = col[17:24]
 creal = col[24:174:5] # len = 30
 cfake = col[174:324:5] # len = 30
-
+creal
+cfake
 
 result = pd.DataFrame()
 ## Average partisanship score
@@ -35,12 +40,14 @@ lib_count = []
 mod_count = []
 con_count = []
 for news in creal:
+    print(news)
     c = Counter(rdf[news].astype(int).to_list())
     lib_count.append(c[1] + c[2])
     mod_count.append(c[3])
     con_count.append(c[4] + c[5])
 
 for news in cfake:
+    print(news)
     c = Counter(fdf[news].astype(int).to_list())
     lib_count.append(c[1] + c[2])
     mod_count.append(c[3])
@@ -416,3 +423,4 @@ plt.savefig("/Users/agathos/DtotheS/CBv2/img/political_stance.png",dpi=600)
 plt.show()
 plt.close()
 '''
+

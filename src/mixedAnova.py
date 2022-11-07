@@ -5,8 +5,8 @@ import matplotlib.pyplot as plt
 import numpy as np
 import csv
 
-df = pd.read_csv("/Users/agathos/DtotheS/CBv2/data/result100n.csv")
-df2 = pd.read_csv("/Users/agathos/DtotheS/CBv2/data/result100t.csv")
+df = pd.read_csv("/Users/agathos/DtotheS/CBv2/data/result100n_raw.csv")
+df2 = pd.read_csv("/Users/agathos/DtotheS/CBv2/data/result100t_raw.csv")
 df = df[2:].reset_index(drop=True)
 df2 = df2[2:].reset_index(drop=True)
 
@@ -42,7 +42,7 @@ arl = [a_r_l[0],a_r_l[1]]
 arr = [a_r_r[0],a_r_r[4]]
 grl = [g_r_l[3],g_r_l[4]]
 grr = [g_r_r[0],g_r_r[1]]
-irl = [i_r_l[2],i_r_l[3]]
+irl = [i_r_l[0],i_r_l[3]] # modified bc 2 does over half. irl = [i_r_l[2],i_r_l[3]]
 irr = [i_r_r[0],i_r_r[1]]
 afl = [a_f_l[2],a_f_l[3]]
 afr = [a_f_r[1],a_f_r[2]]
@@ -87,7 +87,7 @@ for i in range(len(li1)):
 
 result[li3].mean()
 
-# result.to_csv("/Users/agathos/DtotheS/CBv2/data/result_clean_wide.csv",index=False)
+# result.to_csv("/Users/agathos/DtotheS/CBv2/data/result_clean_wide_v2.csv",index=False)
 
 ## Repeated measure ANOVA
 # !pip install statsmodels
