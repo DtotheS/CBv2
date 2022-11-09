@@ -37,7 +37,7 @@ g_f_r = col[249:274:5]
 i_f_l = col[274:299:5]
 i_f_r = col[299:324:5]
 
-# 2 News Selection based on the average partisanship score (gap from 3)
+'''Total 24 case: 2 news Selection based on the average partisanship score (gap from 3)
 arl = [a_r_l[0],a_r_l[1]]
 arr = [a_r_r[0],a_r_r[4]]
 grl = [g_r_l[3],g_r_l[4]]
@@ -71,6 +71,39 @@ gl_mean = rdf[grl].astype(int).mean(axis=1).append(fdf[gfl].astype(int).mean(axi
 gr_mean = rdf[grr].astype(int).mean(axis=1).append(fdf[gfr].astype(int).mean(axis=1))
 il_mean = rdf[irl].astype(int).mean(axis=1).append(fdf[ifl].astype(int).mean(axis=1))
 ir_mean = rdf[irr].astype(int).mean(axis=1).append(fdf[ifr].astype(int).mean(axis=1))
+'''
+
+#Total 12 Case: 1 for each veracity * topic * news leaning
+arl = a_r_l[2]
+arr = a_r_r[4]
+grl = g_r_l[3]
+grr = g_r_r[4]
+irl = i_r_l[3]
+irr = i_r_r[2]
+afl = a_f_l[3]
+afr = a_f_r[1]
+gfl = g_f_l[1]
+gfr = g_f_r[3]
+ifl = i_f_l[2]
+ifr = i_f_r[1]
+
+result = pd.DataFrame()
+## Average partisanship score
+# (rdf['mTurkcode'] == rdft['mTurkcode']).sum()
+# (fdf['mTurkcode'] == fdft['mTurkcode']).sum()
+result['mturkcode'] = rdf[code].astype(int).append(fdf[code].astype(int))
+result[['gender','age','edu','ethnicity','pinterest','pcynical','pstance']] = rdft[cdemo].append(fdft[cdemo])
+result['veracity(1real)'] = rdf['condition'].astype(int).append(fdf['condition'].astype(int))
+
+# rdf[arl].astype(int).mean(axis=1).mean()
+# fdf[afl].astype(int).mean(axis=1).mean()
+al_mean = rdf[arl].astype(int).append(fdf[afl].astype(int))
+ar_mean = rdf[arr].astype(int).append(fdf[afr].astype(int))
+gl_mean = rdf[grl].astype(int).append(fdf[gfl].astype(int))
+gr_mean = rdf[grr].astype(int).append(fdf[gfr].astype(int))
+il_mean = rdf[irl].astype(int).append(fdf[ifl].astype(int))
+ir_mean = rdf[irr].astype(int).append(fdf[ifr].astype(int))
+
 
 li1 = ['a-lib-mean','a-rep-mean','g-lib-mean','g-rep-mean','i-lib-mean','i-rep-mean']
 li2 = [al_mean,ar_mean,gl_mean,gr_mean,il_mean,ir_mean]
@@ -86,8 +119,13 @@ for i in range(len(li1)):
         result[li3[i]] = result[li1[i]] - 3
 
 result[li3].mean()
+result[result['veracity(1real)']==1][[li3[0],li3[2],li3[4]]].mean()
+result[result['veracity(1real)']==1][[li3[1],li3[3],li3[5]]].mean()
+result[result['veracity(1real)']==2][[li3[0],li3[2],li3[4]]].mean()
+result[result['veracity(1real)']==2][[li3[1],li3[3],li3[5]]].mean()
 
 # result.to_csv("/Users/agathos/DtotheS/CBv2/data/result_clean_wide_v2.csv",index=False)
+# result.to_csv("/Users/agathos/DtotheS/CBv2/data/result_clean_wide_v2_12news.csv",index=False)
 
 ## Repeated measure ANOVA
 # !pip install statsmodels
